@@ -1,0 +1,89 @@
+*{ font-family:'Poppins',sans serif;
+  
+}
+ body{ 
+	background-image:url("imgs/8527.jfif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position : center;
+	background-attachment : fixed;
+}
+.box{
+	display: flex;
+	width: 50vw;
+        height: 50vh;
+        position: absolute; 
+        left:60%; 
+        top: 50%;
+        transform: translate(-50%, -50%);
+}
+.container{
+	background-color: lightblue;
+	width: 350px;
+	display: flex;
+	flex-direction: column; 
+	padding: 0 15px  0 15px;
+	border-radius: 30px;
+	margin-top: 10px ;
+}
+span{ 
+	color: #b81414;
+	font-size: small; 
+	display: flex; 
+	justify-content: center; 
+	padding : 10px 0 10px 0;
+}
+
+header{ 
+	color: #04771f;
+	font-size:30px;
+	display: flex;
+	justify-content: center;
+	padding: 10px 0 10px 0;
+}
+
+.input_field{
+	display: flex; 
+	flex-direction : column;
+	}
+
+.input{ 
+	height: 45px;	
+	width: 100%;
+	border-color: black;
+	outline:none;
+	border-radius:30px;
+	padding: 0 0 0;
+	background: rgba(255,255,255,0.1);
+}
+
+::-webkit-input-placeholder{
+	color: black;
+	font-size: 15px;
+	text-align: left;
+	padding-left: 10px;
+}
+.submit{ 
+	border: none;
+	border-radius: 30px;
+	font-size: 15px;
+	height: 45px;
+	outline:none;
+	width: 100%;
+	background: rgba(255,255,255,0.7);
+	margin-top: 8px;
+	
+
+} 
+.submit:hover{
+	box-shadow: 1px 5px 7 1px rgba(0,0,0,0.2);
+	cursor: pointer;
+	border:3px solid #04771f;
+	font-size: 20px;
+}
+header h1{
+	color: yellow;
+	margin-top: 0;
+	font-size: 3vw;
+}
+
